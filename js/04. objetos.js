@@ -1,3 +1,5 @@
+// --- OBJETOS ---
+
 // Variables vs Objetos
 
 // const nombre = 'Tarta';

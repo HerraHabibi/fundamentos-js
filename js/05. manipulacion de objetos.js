@@ -1,4 +1,4 @@
-// Manipulación de objetos
+// --- MANIPULACIÓN DE OBJETOS ---
 
 const producto = {
   nombre: 'Tarta',
