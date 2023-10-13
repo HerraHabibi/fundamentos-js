@@ -42,4 +42,3 @@ function Multiplicar2(num, num2 = 2) {                  // Ahora num2 tiene 2 co
 
 Multiplicar2(9);         // 9 * 2 = 18
 Multiplicar2(9, 4);      // Pero podemos seguir cambiando el valor a num2 como antes (9 * 4 = 36)
-
