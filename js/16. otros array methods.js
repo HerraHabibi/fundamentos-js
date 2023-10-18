@@ -1,4 +1,4 @@
-// --- ARROW FUNCTIONS Y ARRAY METHODS ---
+// --- OTROS ARRAY METHODS ---
 
 const tecnologias = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'];
 const numeros = [10, 20, 30];
