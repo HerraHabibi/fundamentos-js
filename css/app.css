@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+*:focus {
+    outline: none;
+}
+
 body {
     background-color: #171717;
 }
@@ -42,7 +46,7 @@ header p a {
     margin-right: 10px;
 }
 .DOM p {
-    color: #2563EB;
+    color: #0075FF;
     font-size: 20px;
 }
 
@@ -60,7 +64,7 @@ header p a {
 }
 
 .DOM #formulario input[type="submit"] {
-    background-color: #2563EB;
+    background-color: #0075FF;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 20px;
