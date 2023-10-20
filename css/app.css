@@ -33,27 +33,36 @@ header p a {
 
 .DOM {
     max-width: 120rem;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 .DOM h2 {
     color: #FFF;
     text-align: center;
+    margin: 20px 0;
 }
+
 .DOM nav a {
     color: #FFF;
     font-size: 20px;
     text-decoration: none;
-    margin-right: 10px;
+    margin-left: 30px;
 }
+
+.DOM .tecnologias {
+    margin: 15px 30px;
+}
+
 .DOM p {
     color: #0075FF;
     font-size: 20px;
+    margin: 15px 0;
 }
 
 .DOM #formulario {
     max-width: 500px;
     margin: 0 auto;
 }
+
 .DOM #formulario input {
     display: block;
     width: 100%;
@@ -61,6 +70,7 @@ header p a {
     margin-bottom: 2rem;
     padding: 2rem;
     border-radius: 1rem;
+    box-sizing: border-box;
 }
 
 .DOM #formulario input[type="submit"] {
