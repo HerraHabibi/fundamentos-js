@@ -1,96 +1,110 @@
 * {
-    font-family: Arial;
-    padding: 0;
-    margin: 0;
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
 }
 
-*:focus {
-    outline: none;
+:focus {
+  outline: none;
+}
+
+::selection {
+  color: #171717;
+  background: #e0e0e0;
 }
 
 body {
-    background-color: #171717;
+  background-color: #171717;
 }
 
 header {
-    padding: 10px;
+  padding: 10px;
+}
+
+header * {
+  text-align: center;
 }
 
 header h1 {
-    text-align: center;
-    color: #f7e018;
-    font-size: 50px;
+  color: #f7e018;
+  font-size: 50px;
 }
 header p {
-    color: #e0e0e0;
-    text-align: center;
-    font-size: 30px;
+  color: #e0e0e0;
+  font-size: 30px;
 }
 header p a {
-    text-decoration: none;
-    color: #0075FF;
+  text-decoration: none;
+  color: #0075ff;
 }
 
 .DOM {
-    max-width: 120rem;
-    margin: 0px auto;
+  max-width: 120rem;
+  margin: 0px auto;
 }
 .DOM h2 {
-    color: #FFF;
-    text-align: center;
-    margin: 20px 0;
+  color: #e0e0e0;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .DOM nav a {
-    color: #FFF;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 30px;
+  color: #e0e0e0;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 30px;
 }
 
 .DOM .tecnologias {
-    margin: 15px 30px;
+  margin: 15px 30px;
 }
 
 .DOM p {
-    color: #0075FF;
-    font-size: 20px;
-    margin: 15px 0;
+  color: #0075ff;
+  font-size: 20px;
+  margin: 15px 0;
 }
 
 .DOM #formulario {
-    max-width: 500px;
-    margin: 0 auto;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .DOM #formulario input {
-    display: block;
-    width: 100%;
-    border: none;
-    margin-bottom: 2rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border: none;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+  color: #171717;
+  &::selection {
+    color: #e0e0e0;
+    background: #171717;
+  }
 }
 
-.DOM #formulario input[type="submit"] {
-    background-color: #0075FF;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #FFF;
+.DOM #formulario input[type='submit'] {
+  background-color: #0075ff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #e0e0e0;
 }
 
 .alerta {
-    padding: 1rem;
-    text-align: center;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 20px;
+  padding: 1rem;
+  text-align: center;
+  color: #e0e0e0;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 10px;
 }
-.alerta.error {
-    background-color: rgb(162, 0, 0);
+.error {
+  background-color: #ac0000;
 }
-.alerta.exito {
-    background-color: rgb(7, 145, 7);;
+.exito {
+  background-color: #00ac00;
 }
